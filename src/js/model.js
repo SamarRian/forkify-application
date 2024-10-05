@@ -144,3 +144,7 @@ export const uploadRecipe = async function (newRecipe) {
     throw err;
   }
 };
+const newFeature = function () {
+  console.log('welcome to the application');
+};
+newFeature();
